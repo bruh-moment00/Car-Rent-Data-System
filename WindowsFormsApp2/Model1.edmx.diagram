@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e651b1149c394f45b9af740e6248a71e" Name="Diagram1">
+        <EntityTypeShape EntityType="car_rent_dbModel.Brands" Width="1.5" PointX="1.5" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="car_rent_dbModel.Clients" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="car_rent_dbModel.Employees" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="car_rent_dbModel.Jobs" Width="1.5" PointX="1.5" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="car_rent_dbModel.Options" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="car_rent_dbModel.Rentals" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="car_rent_dbModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="car_rent_dbModel.Vehicles" Width="1.5" PointX="0.75" PointY="17" IsExpanded="true" />
+        <AssociationConnector Association="car_rent_dbModel.FK_Vehicles_Brands" ManuallyRouted="false" />
+        <AssociationConnector Association="car_rent_dbModel.FK_Rentals_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="car_rent_dbModel.FK_Employees_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="car_rent_dbModel.FK_Rentals_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="car_rent_dbModel.FK_Rentals_Options" ManuallyRouted="false" />
+        <AssociationConnector Association="car_rent_dbModel.FK_Rentals_Options1" ManuallyRouted="false" />
+        <AssociationConnector Association="car_rent_dbModel.FK_Rentals_Options2" ManuallyRouted="false" />
+        <AssociationConnector Association="car_rent_dbModel.FK_Rentals_Vehicles" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="car_rent_dbModel.RentView" Width="1.5" PointX="7.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
